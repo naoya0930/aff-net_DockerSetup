@@ -2,9 +2,9 @@
 
 ## About this code
 
-I have created a dockerfile to build affordance-net on docker. This code refers to (cudtomed env github repository)[https://github.com/hongtaowu67/affordance-net]. In other words, it builds a virtual environment of cuda10.2-cudnn7-ubuntu18.
+I have created a dockerfile to build affordance-net on docker. This dockerfile uses a (altered version of the code)[https://github.com/hongtaowu67/affordance-net]. In other words, it builds a virtual environment of cuda10.2-cudnn7-ubuntu18.
 
-I would like to thank the developers of affordance-net for their contributions.
+I would like to thank the all developers of affordance-net.I hope this file will be useful to someone!
 
 ### Citing AffordanceNet
 
