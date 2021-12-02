@@ -22,7 +22,7 @@ RUN curl -O https://files.pythonhosted.org/packages/27/79/8a850fe3496446ff0d5843
 RUN python pip-20.3.4-py2.py3-none-any.whl/pip install --no-index pip-20.3.4-py2.py3-none-any.whl
 RUN rm -rf pip-20.3.4-py2.py3-none-any.whl
 RUN pip install --upgrade pip
-RUN yes | pip install easydict opencv-contrib-python scikit-image protobuf cython
+RUN yes | pip install easydict opencv-contrib-python scikit-image protobuf cython pyYAML
 
 RUN git clone https://github.com/hongtaowu67/affordance-net.git
 RUN cd affordance-net/caffe-affordance-net && \
