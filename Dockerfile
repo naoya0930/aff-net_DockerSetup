@@ -31,6 +31,6 @@ RUN cd affordance-net/caffe-affordance-net && \
     make all -j4 && make pycaffe 
 
 RUN cd affordance-net/lib && make .
-ENV PYTHONPATH=affordance-net/caffe-affordance-net/python:$PYTHONPATH
+ENV PYTHONPATH=/affordance-net/caffe-affordance-net/python:$PYTHONPATH
 
 # you should download dataset from https://github.com/hongtaowu67/affordance-net and unzip it
